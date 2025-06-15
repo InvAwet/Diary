@@ -19,7 +19,8 @@ You are an expert software engineer and Streamlit developer. Write a complete, p
 # AI Generation Prompt
 '''
 # ---------------- AI PROMPT END ----------------
-
+from utils.pdf_generator import generate_pdf
+from utils.data_models import DiaryEntry
 import pandas as pd
 from datetime import datetime, date
 import io
